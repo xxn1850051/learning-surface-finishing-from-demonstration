@@ -6,7 +6,7 @@
 ### Objective: 
 Develop a software to generate effective trajectories for robotic surface finishing in the pybullet simulation using ergodic control strategies. We want to integrate iterative methods (iLQR) to the framework to find short trajectory that cover a given distribution as good as possible. Therefore we want to consider the imprint of the tool (tool area that is in contact with workpiece surface) instead of assuming a point contact and iteratively optimize the trajectory.
 
-### Key Features:
+### Roadmap:
 
 1. Familiarize with the iLQR method presented in the notebook [ilqr_ergodic_control.py](https://colab.research.google.com/github/MurpheyLab/ergodic-control-sandbox/blob/main/notebooks/ilqr_ergodic_control.ipynb#scrollTo=GpWFZQoi01c_) and the corresponding papers referenced there.
 
@@ -16,5 +16,5 @@ Develop a software to generate effective trajectories for robotic surface finish
 
 4. Extend the approach by generalizing the point mass to a constant later variable footprint of the agent.
 
-<img src="https://rmc-github.robotic.dlr.de/interactive-skill-learning/ws24-practical-learning-robotic-skills/blob/main/code/ergodic_control/gifs/smc_ergodic_control.gif" alt="drawing" width="240"/>
-<img src="https://rmc-github.robotic.dlr.de/interactive-skill-learning/ws24-practical-learning-robotic-skills/blob/main/code/ergodic_control/gifs/ilqr_iters.gif" alt="drawing" width="250"/>
+<img src="https://gitlab.lrz.de/i23-lectures/ws-2024-learning-robotic-skills-from-demonstration/learning-surface-finishing-from-demonstration/-/blob/main/src/ergodic_control/gifs/smc_ergodic_control.gif" alt="drawing" width="240"/>
+<img src="https://gitlab.lrz.de/i23-lectures/ws-2024-learning-robotic-skills-from-demonstration/learning-surface-finishing-from-demonstration/-/blob/main/src/ergodic_control/gifs/ilqr_iters.gif" alt="drawing" width="250"/>
